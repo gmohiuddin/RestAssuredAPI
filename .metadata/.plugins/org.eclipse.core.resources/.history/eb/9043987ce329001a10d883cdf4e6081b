@@ -1,0 +1,31 @@
+2019-12-28 21:19:17 INFO  EmployeesRestAPI:16 - ******************* Started TC001_GET_AllEmployees ****************
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:66 - ******************* Checking content type ****************
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:69 - Content Type is ==>text/html; charset=UTF-8
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:45 - ******************* Checking respond time ****************
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:48 - Response Tisme is ==>2835
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:26 - ******************* Checking response body ****************
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:88 - ******************* Checking content length ****************
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:91 - Content Length is ==>null
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:77 - ******************* Checking server type ****************
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:80 - Server Type is ==>nginx/1.16.0
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:34 - ******************* Checking status code ****************
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:37 - Status Code is==>200
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:55 - ******************* Checking status line ****************
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:58 - Status Line is ==>HTTP/1.1 200 OK
+ 2019-12-28 21:19:25 INFO  EmployeesRestAPI:101 - ******************* Finished TC002_GET_Single_Employee ****************
+ 2019-12-28 21:25:44 INFO  EmployeesRestAPI:16 - ******************* Started TC001_GET_AllEmployees ****************
+ 2019-12-28 21:25:52 INFO  EmployeesRestAPI:66 - ******************* Checking content type ****************
+ 2019-12-28 21:25:52 INFO  EmployeesRestAPI:69 - Content Type is ==>text/html; charset=UTF-8
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:45 - ******************* Checking respond time ****************
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:48 - Response Tisme is ==>3240
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:26 - ******************* Checking response body ****************
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:88 - ******************* Checking content length ****************
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:91 - Content Length is ==>null
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:77 - ******************* Checking server type ****************
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:80 - Server Type is ==>nginx/1.16.0
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:34 - ******************* Checking status code ****************
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:37 - Status Code is==>200
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:55 - ******************* Checking status line ****************
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:58 - Status Line is ==>HTTP/1.1 200 OK
+ 2019-12-28 21:25:53 INFO  EmployeesRestAPI:101 - ******************* Finished TC002_GET_Single_Employee ****************
+ 

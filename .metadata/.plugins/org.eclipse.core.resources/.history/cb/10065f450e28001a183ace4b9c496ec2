@@ -1,0 +1,74 @@
+package DataDrivenTesting; 
+import java.io.FileInputStream;
+
+public class XLUtils { 
+public static FilelnputStream fi; 
+public static FileOutputStream fo; 
+public static XSSFWorkbook wb; 
+public static XSSFSheet ws; 
+public static XSSFRow row; 
+public static XSSFCell ceLL;
+ 
+public static int getRowCount(String xlfile„String xlsheet) throws I0Exception {
+ 
+fi=new FileInputStream(xlfile); 
+wb=new XSSFWorkbook(fi); 
+ws=wb.getSheet(xlsheet); 
+int rowcount=ws.getLastRowNum(); 
+wb.close(); 
+fi.close(); 
+return rowcount; 
+} 
+
+public static int { 
+getCellCount 
+(String xlfile„String xlsheet,int rownum) throws I0Exception
+{ 
+fi=new FileInputStream(xlfile); 
+wb=new XSSFWorkbook(fi); 
+ws=wb.getSheet(xlsheet); 
+row=ws.getRow(rownum); 
+int cellcount=row.getLastCellNum(); 
+wb.close(); 
+fi.close(); 
+
+return cellcount; 
+} 
+
+public static String getCellData(String xlfile,String { 
+
+fi=new FilelnputStream(xlfile); 
+wb=new XSSFWorkbook(fi); 
+ws=wb.getSheet(xlsheet); 
+row=ws.getRow(rownum); 
+ceLL=row. getCell(colnum); 
+
+xlsheet 
+lint rownum,int colnum) throws I0Exception 
+tring data; 
+} 
+try { 
+DataFormatter formatter = new DataFormatter(); 
+String cellData = formatter.formatCellValue(ceLL); 
+return cellData; 
+} catch (Exception e) 
+{ 
+data=""; 
+} 
+wb.close(); 
+fi.close(); 
+return data; 
+public static void { setCellData ( String xlfile,String xlsheet,int rownum,int colnum,String data 
+fi=new FilelnputStream(xlfile); 
+wb=new XSSFWorkbook(fi); 
+ws=wb.getSheet(xlsheet); 
+row=ws.getRow(rownum); 
+ceLL=row. createCell(colnum); 
+ceLL.setCellValue(data); 
+fo=new FileOutputStream(xlfile); 
+wb.write(fo); 
+wb.close(); 
+fi.close();
+ fo.close(); 
+
+) throws I0Exception 
